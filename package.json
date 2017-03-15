@@ -1,0 +1,27 @@
+{
+  "name": "tdd-sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "Joe Shep",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha -R list --watch"
+  },
+  "dependencies": {
+    "sqlite3": "^3.1.8"
+  }
+}
