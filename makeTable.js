@@ -1,8 +1,6 @@
 const sqlite3  = require('sqlite3');
 const { customers } = require('./data/customers');
-const db = new sqlite3.Database('./acme.sqlite', (wat) => {
-  console.log("Is this connection open?", db);
-});
+const db = new sqlite3.Database('./acme.sqlite');
 
 function createTables() {
   db.run(`DROP TABLE IF EXISTS customers`)
